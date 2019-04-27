@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>User Detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        Welcome 
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+        Your Registered EmailID : {{userEmail}}
+      </ion-col>
+    </ion-row>
+  </ion-grid> 
+  <br>
+  <br>
+  <div style="display: flex; justify-content: center;"> 
+  <ion-button (click)="logout()" color:secondary>Log out</ion-button>
+</div>
+</ion-content>
+
